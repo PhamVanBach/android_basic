@@ -1,4 +1,4 @@
-package com.BPeventhandling;
+package com.bp.decoapp;
 
 import org.junit.Test;
 
