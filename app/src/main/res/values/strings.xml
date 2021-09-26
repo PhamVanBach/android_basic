@@ -1,20 +1,3 @@
 <resources>
-    <string name="app_name">HEHE PRODUCT</string>
-    <string-array name="arrProduct">
-        <item>Ban so 1</item>
-        <item>Ban so 2</item>
-        <item>Ban so 3</item>
-        <item>Ban so 4</item>
-        <item>Ban so 5</item>
-        <item>Ban so 6</item>
-    </string-array>
-
-    <string-array name="arrFilterProductName">
-        <item>Bàn</item>
-        <item>Ghế</item>
-        <item>Cửa</item>
-        <item>Rèm</item>
-        <item>Đèn</item>
-        <item>Kệ</item>
-    </string-array>
+    <string name="app_name">HEHE2.4</string>
 </resources>
