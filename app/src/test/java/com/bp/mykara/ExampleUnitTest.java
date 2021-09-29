@@ -1,4 +1,4 @@
-package com.bp.decoapp;
+package com.bp.mykara;
 
 import org.junit.Test;
 

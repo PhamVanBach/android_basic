@@ -1,4 +1,4 @@
-package com.bp.ex24;
+package com.bp.mykara;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.bp.ex24", appContext.getPackageName());
+        assertEquals("com.bp.mykara", appContext.getPackageName());
     }
 }

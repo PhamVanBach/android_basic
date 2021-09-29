@@ -3,10 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/Ex2.4/app/src/main/res/layout/activity_main.xml" value="0.291350531107739" />
-        <entry key="..\:/Android/Ex2.4/app/src/main/res/layout/card.xml" value="0.371875" />
-        <entry key="..\:/Android/Ex2.4/app/src/main/res/layout/cart.xml" value="0.371875" />
-        <entry key="..\:/Android/Ex2.4/app/src/main/res/layout/product.xml" value="0.25" />
+        <entry key="..\:/Android/MyKara/app/src/main/res/layout/activity_main.xml" value="0.3578125" />
+        <entry key="..\:/Android/MyKara/app/src/main/res/layout/favorite_song.xml" value="0.371875" />
+        <entry key="..\:/Android/MyKara/app/src/main/res/layout/list_song.xml" value="0.371875" />
+        <entry key="..\:/Android/MyKara/app/src/main/res/layout/song.xml" value="0.371875" />
       </map>
     </option>
   </component>
