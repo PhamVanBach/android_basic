@@ -52,18 +52,20 @@ public class Adapter_Songs extends ArrayAdapter<Songs> {
         singer.setText(songs.getSinger());
         _btnImg.setImageResource(songs.getID_img());
         _btnImg.setOnClickListener(new View.OnClickListener() {
-            int count = 1;
-
             @Override
             public void onClick(View view) {
 
-                if(songs.getIsClicked() == true){
-                    _btnImg.setImageResource(R.drawable.ic_liked);
-                    songs.setClicked(false);
-                }else {
+                if(songs.getIsClicked() == false){
 
-                    _btnImg.setImageResource(R.drawable.ic_unlike);
                     songs.setClicked(true);
+                        _btnImg.setImageResource(R.drawable.ic_liked);
+                    Boolean hehe = songs.getIsClicked();
+                    Toast.makeText(getContext(),   hehe.toString(), Toast.LENGTH_SHORT).show();
+                }else {
+                    songs.setClicked(false);
+                    _btnImg.setImageResource(R.drawable.ic_unlike);
+                    Boolean hehe = songs.getIsClicked();
+                    Toast.makeText(getContext(), hehe.toString(), Toast.LENGTH_SHORT).show();
                 }
 
             }
